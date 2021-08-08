@@ -1,0 +1,93 @@
+a{
+    text-decoration: none;
+    color:white;
+    
+    font-size: 21px;
+    
+
+}
+
+li{
+    list-style: none;
+    padding: 0px 3rem;
+}
+.navbar{
+      
+    display: flex;
+    
+    
+   
+    
+}
+.navbar::before{
+      
+   
+   content: "";
+    background-color: black;
+    position: absolute;
+    width: 96rem;
+    left: 0px;
+    height: 6rem;
+    opacity: 0.5;
+    z-index: -1;
+    top: 0px;
+}
+
+.left img{
+
+    height: 95px;
+    width: 88px;
+    margin: -8px -7px;
+}
+.home{
+    display: flex;
+   
+    margin: 7px 15rem;
+    padding: 23px 4rem;
+
+    width: 49rem;
+}
+
+header::before{
+    content: "";
+    background: url("/ice/3.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 52rem;
+    width: 96rem;
+    z-index: -2;
+    left: 0px;
+    top: 0px;
+    opacity: .7;
+}
+a:hover{
+    color: rgb(76, 154, 226);
+
+}
+.b{
+    font-size: 2rem;
+    display: block;
+    margin:0rem 61rem;
+    color: #deff8e;
+    width: 37rem;
+    font-family: cursive    ;
+}
+.secb{
+    border: 2px solid red;
+    display: flex;
+}
+.seca{
+    height: 43.5rem;
+}
+.secba{
+    display: block;
+    margin:auto;
+    width: 2rem;
+    font-size: 3rem;
+}
+.service{
+    display: grid;
+    border: 2px solid red;
+    justify-content: center;
+    grid-template-columns: 3rem 3rem 3rem ;
+    grid-template-rows: 5rem 5rem;
+}
