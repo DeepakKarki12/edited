@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: auto;
 
 }
 .logo img{
@@ -10,7 +11,9 @@ body{
 }
 .navbar{
     display: flex;
-    position: relative;
+   border: 2px solid  red;
+   position: relative;
+   position: relative;
     align-items: center;
  }
 .navbar::before{
@@ -43,13 +46,53 @@ body{
    background-color: white;
 }
 /* hmoe */
-.home::before{
+
+#home{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    padding: 0px 124px;
+    justify-content: center;
+    align-items: center;
+    height: 447px;
+    position: relative;
+}
+#home::before{
     content: "";
-    background: url("2.jpg");
-    position: absolute;
+    background: url('1.jpg')no-repeat center center/cover;
     height: 100%;
     width: 100%;
+    position: absolute;
     z-index: -2;
-    top: 0;
-    opacity: .8;
+    opacity: .5;
+
+}
+
+#service-container{
+    display: flex;
+    flex-direction: column;}
+#service-container h1{
+   text-align: center;
+
+}
+.service img{
+   height: 100px;
+   border-radius: 40px;
+
+}
+.service .div{
+   border: 2px solid red;
+   margin: 0px 20px;
+   padding: 0px 20px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   border-radius: 40px;
+   background-color: rgb(245, 223, 223);
+
+}
+.service{
+   display: flex;
+
 }

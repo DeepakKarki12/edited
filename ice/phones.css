@@ -1,7 +1,7 @@
 
 .navbar{
     flex-direction: column;
-    height: 271px;
+    height: 129px;
    
 }
 ul{
@@ -10,5 +10,24 @@ ul{
 
 .navbar ul li a{
     font-size: 1rem;
-    padding: 2px 2px;
+    padding: 1px 2px;
 }
+.service{
+    flex-direction: column;
+    height: 280px;
+ 
+ }
+ #home p{
+     height:28px;
+     padding: 10px 20px;
+ }
+ #home {
+    font-size:.7rem;
+     padding: 10px 20px;
+     height:200px;
+ }
+ .service .div{
+font-size: .7rem;
+margin: 10px 0px;
+
+ }
