@@ -1,54 +1,55 @@
-*{
-    margin: 0px;
-}
-.navbar ul{
-display: flex;
-}
-.navbar ul li{
-list-style: none;
-flex-direction: column;
-}
-a{ 
-    font-size: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 4rem;
-    margin: 0px 2rem;
-    padding: 10px 9px;
-    overflow: auto;
+body{
+    margin: 0;
+    padding: 0;
 
+}
+.logo img{
+    height: 57px;
+    width: 71px;
+    margin: 7px 8px;
 }
 .navbar{
     display: flex;
-   
-    
     position: relative;
-    padding: 1rem 1rem;
-}
-.bg::before{
+    align-items: center;
+ }
+.navbar::before{
     content: "";
     background-color: black;
-    position: absolute;
     height: 100%;
     width: 100%;
-    top:0px;
-    left: 0rem;
+    position: absolute;
     z-index: -1;
-    opacity: .7;
+    opacity: .5; }
+.navbar ul{
+    display: flex;
 }
-
+.navbar ul li{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0px 21px;
+    font-size: 1.5rem;
+   color: white;
+    border-radius: 40px;
+    margin: 0px 12px;
+    height: 27px;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+   color: black;
+   background-color: white;
+}
+/* hmoe */
 .home::before{
     content: "";
-    background: url('logo.jpg') no-repeat center center/cover;
+    background: url("2.jpg");
     position: absolute;
-    width: 100%;
     height: 100%;
-    top: 0px;
-    z-index: -1;
+    width: 100%;
+    z-index: -2;
+    top: 0;
     opacity: .8;
-}
-a:hover{
-    color: black;
-    background-color: rgb(255, 255, 255);
 }
