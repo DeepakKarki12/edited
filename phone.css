@@ -1,0 +1,157 @@
+.navbar{
+    flex-direction: column;
+    align-items: center;
+      ;
+}
+.navbar img{
+    width: 108px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li a{
+    
+    font-size: 1rem;
+   
+    padding: 0px 10px;
+    
+ }
+ .navbar ul li{
+    
+  
+    margin: 1px -2px;
+}
+
+
+
+
+
+/* home */
+
+
+.home h1{
+    font-size: 1.5rem;
+    color: white;
+}
+.home{
+    height: 320px;
+}
+/* secondary */
+.secondary h1{
+    text-align: center;
+    
+    font-size: 2rem;
+    
+}
+.secondary {
+    height: 832px;
+    
+}
+.secondary h2{
+   font-size: 1rem;
+}
+.cod{
+    flex-direction: column;
+}
+#box1 img{
+    height: 197px;
+    position: absolute;
+    top: 693px;
+    left: -7px;
+}
+#box2{
+    /* border: 3px solid red; */
+    height: 200px;
+   
+   
+   
+   
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+ }
+#box2 img{
+   
+    height: 197px;
+    position: absolute;
+ 
+    top: 1028px;
+    right: 0px;
+   
+ }
+ /* secondary2 */
+ .secondary2 h2{
+    font-size: 1rem;
+ }
+ #box12 img{
+  
+    height: 175px;
+    position: absolute;
+  
+    top: 1545px;
+    left: -9px;
+   
+  }
+  #box22 img{
+   
+    height: 197px;
+    position: absolute;
+ 
+    top: 1844px;
+    right: 20px;
+   
+ }
+ .assi{
+    flex-direction: column;
+}
+.secondary2 {
+    height: 832px;
+    
+}
+/* .secondary3 */
+.secondary3 h2{
+    font-size: 1rem;
+ }
+ #box123 img{
+  
+    height: 137px;
+    position: absolute;
+  
+    top: 2388px;
+    left: -9px;
+   
+  }
+  #box223 img{
+   
+    height: 197px;
+    position: absolute;
+ 
+    top: 2748px;
+    right: 20px;
+   
+ }
+ .OTHER{
+    flex-direction: column;
+}
+.secondary3 {
+    height: 832px;
+    
+}
+/* CONTACT */
+
+.contact h1{
+    font-size: 1rem;
+ }
+ 
+ .contact{
+   font-size: 1rem;  
+   
+}
+ .contact button{
+   font-size: 1rem;
+
+}
+.padc{
+   
+    margin: 10px 10px;
+}
