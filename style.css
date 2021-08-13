@@ -163,7 +163,7 @@ color: white   ;
   height: 340px;
   position: absolute;
 
-  top:779px;
+  top:763px;
   left: -29px;
  
 }
@@ -185,7 +185,7 @@ color: white   ;
    height: 340px;
    position: absolute;
 
-   top: 821px;
+   top: 783px;
    right: 0px;
   
 }
@@ -358,15 +358,21 @@ color: white   ;
 }
 .input{
     display: block;  
+    
+    
 }
 
 .contact button{
   font-size: 2rem;
   position: relative;
-  left: 170px;
+  left: 244px;
    padding: 0;
    background-color: 
    blueviolet;
 }
-
+.padc input{
+    text-align: center;
+    padding:10px 86px;
+    font-size: 1rem;
+}
 

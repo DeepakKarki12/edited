@@ -56,7 +56,7 @@
 #box1 img{
     height: 197px;
     position: absolute;
-    top: 693px;
+    top: 678px;
     left: -7px;
 }
 #box2{
@@ -72,10 +72,10 @@
  }
 #box2 img{
    
-    height: 197px;
+    height:245px;
     position: absolute;
  
-    top: 1028px;
+    top: 971px;
     right: 0px;
    
  }
@@ -85,10 +85,10 @@
  }
  #box12 img{
   
-    height: 175px;
+    height: 154px;
     position: absolute;
   
-    top: 1545px;
+    top: 1561px;
     left: -9px;
    
   }
@@ -114,19 +114,19 @@
  }
  #box123 img{
   
-    height: 137px;
+    height: 123px;
     position: absolute;
   
-    top: 2388px;
+    top: 2441px;
     left: -9px;
    
   }
   #box223 img{
    
-    height: 197px;
+    height: 252px;
     position: absolute;
  
-    top: 2748px;
+    top: 2679px;
     right: 20px;
    
  }
@@ -155,3 +155,13 @@
    
     margin: 10px 10px;
 }
+.padc input{
+    text-align: center;
+    padding:10px 21px;
+    font-size: 1rem;
+}
+.contact button{
+   
+    left: 136px;
+     
+  }

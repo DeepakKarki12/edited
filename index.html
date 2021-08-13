@@ -16,13 +16,13 @@
     <nav class="navbar">
         <img src="img/cod3.png" alt="">
        <ul>
-           <li> <a href="">Home</a></li>
+           <li> <a href=".home">Home</a></li>
            <li> <a href="">Game</a></li>
-           <li> <a href="">About Us</a></li>
-           <li> <a href="">Contact</a></li>
+           <li> <a href="">About</a></li>
+           <li> <a href=".contact">Contact</a></li>
        </ul>
 
-       <button class="btn">Login</button>
+       <button class="btn" onclick="greet">Login</button>
        
     </nav>
        <section class="home">
@@ -85,24 +85,28 @@
     <section class="contact">
         <h1>Contact Us</h1>
         <form action="" class="input">  
-         <div class="padc">   Name :-&nbsp;&nbsp;<input type="text" name="" id=""></div>
-         <div class="padc">   City :- &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id=""></div>
-         <div class="padc">   mob no.:- <input type="text" name="" id=""></div>
+         <div class="padc">   Name :-&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" placeholder="enter your name"></div>
+         <div class="padc">   City :-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" placeholder="location"></div>
+         <div class="padc">   mob no.:- <input type="text" name="" id="" placeholder="number"></div>
          <button>
              Submit
          </button>
 
         </form>
-
-        
-
-
     </section>
     <section>
 
     </section>
    
+<script>
+    
 
+    function greet(){
+    
+        alert("use big screen for better experience");
+    }
+    setTimeout(greet,10000);
+</script>
     
 
 </body>
